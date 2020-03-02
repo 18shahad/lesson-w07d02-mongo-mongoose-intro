@@ -57,3 +57,12 @@ If at some point you get an error with `mongod`:
 ## Down the Rabbit Hole: Hungry for More
 
 [Understanding Permissions](https://www.elated.com/articles/understanding-permissions/)
+
+## Install Mongo for Windows
+
+1. Download [MongoDB.msi](https://www.mongodb.com/download-center/community) and install it (v 4.2.3)
+1. `PRESS` on `WINDOWS KEY` on your keyboard => `TYPE` **environment variables** and `CLICK` it
+1. Go to **Advanced** `TAB` => `CLICK` on **environment variables** `BUTTON`
+1. `BUTTON` In the up section `PICK` **Path** In the `USER SECTION` and => `CLICK` on **edit** => `CLICK` on **new** `BUTTON`
+1. `PAST` this path `C:\Program Files\MongoDB\Server\4.2\bin`
+1. `CLICK` on **ok** `BUTTON` (repeat this step three times)
