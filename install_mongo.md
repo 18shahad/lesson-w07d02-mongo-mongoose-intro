@@ -61,8 +61,15 @@ If at some point you get an error with `mongod`:
 ## Install Mongo for Windows
 
 1. Download [MongoDB.msi](https://www.mongodb.com/download-center/community) and install it (v 4.2.3)
-1. `PRESS` on `WINDOWS KEY` on your keyboard => `TYPE` **environment variables** and `CLICK` it
-1. Go to **Advanced** `TAB` => `CLICK` on **environment variables** `BUTTON`
-1. `BUTTON` In the up section `PICK` **Path** In the `USER SECTION` and => `CLICK` on **edit** => `CLICK` on **new** `BUTTON`
+1. `PRESS` on `WINDOWS KEY` on your keyboard, then `TYPE` **environment variables** and `CLICK` it
+1. Go to **Advanced** `TAB`, then `CLICK` on **environment variables** `BUTTON`
+1. `BUTTON` In the up section `PICK` **Path** In the `USER SECTION` and, then `CLICK` on **edit**, then `CLICK` on **new** `BUTTON`
 1. `PAST` this path `C:\Program Files\MongoDB\Server\4.2\bin`
 1. `CLICK` on **ok** `BUTTON` (repeat this step three times)
+
+
+## Extra (Downlaod Robo 3T)
+1. Download [Robo 3T.msi](https://robomongo.org/download) and install it (v 1.3.1)
+1. Open it and `CLICK` on **Create**, then `CLICK` on **Save**
+1. `CLICK` on **Connect**
+1. `PICK` **New Connection**, then `PICK` **learn** database, then `PICK` **Collections**, then `PICK` **contacts** collection
